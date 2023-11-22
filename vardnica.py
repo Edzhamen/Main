@@ -10,3 +10,6 @@ names = [
         "grade": 10
     }
 ]
+
+for student in names:
+    print(f"{student['name']} ({student['class']}) {student['grade']}")
